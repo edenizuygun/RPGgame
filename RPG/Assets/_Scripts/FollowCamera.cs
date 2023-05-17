@@ -12,7 +12,7 @@ public class FollowCamera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.position = target.position + new Vector3(0,16,-20);
         transform.rotation = Quaternion.Euler(30,0,0);
