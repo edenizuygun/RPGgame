@@ -16,7 +16,7 @@ namespace RPG.Core
         // Update is called once per frame
         void LateUpdate()
         {
-            transform.position = target.position + new Vector3(0, 16, -20);
+            transform.position = target.position + new Vector3(0, 8, -10);
             transform.rotation = Quaternion.Euler(30, 0, 0);
         }
     }

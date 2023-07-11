@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6406473618581828291}
   - component: {fileID: 2905518112807132726}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyOld
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,4 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1645067396339146b836ea815cffca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 20
